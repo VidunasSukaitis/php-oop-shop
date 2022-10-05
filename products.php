@@ -20,6 +20,7 @@ $products = Product::getProducts('./data/products.json');
     <div>
         <h3>
             <?php echo $product->title; ?>
+            <?php echo $product->ratings; ?>
         </h3>
         <span>
             <?php echo $product->price; ?> Eur
